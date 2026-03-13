@@ -1,10 +1,10 @@
-# OrangeHRM Testing Project
+# OrangeHRM Testing Project – Software Testing Report Summary
 
-Developed manual and automated tests for the OrangeHRM web application to verify core HR system functionality across multiple modules.
+**Description:** Conducted comprehensive testing for a human resources management system, focusing on manual, black-box, and automated testing using Selenium WebDriver and pytest.
 
-**Tools:** Python · Selenium WebDriver · pytest · Page Object Model (POM) · Microsoft Excel
+**Technologies:** Python, Selenium WebDriver, pytest, Page Object Model (POM), Microsoft Excel, pytest-html, Black-Box Testing, Equivalence Partitioning, Boundary Value Analysis
 
-- Designed **manual test cases** in Excel covering 6 modules: Login, Dashboard, Leave, Employee Management (PIM), Admin, and Personal Info
-- Built an **automated test suite of 65 test cases** using Selenium WebDriver and pytest, structured with the Page Object Model (POM) design pattern
-- Automated test scenarios for login validation, form input, dropdown selection, navigation, and search/filter functions
-- Generated HTML test reports using pytest-html for test result documentation
+**Responsibility:**
+- Performed manual and black-box testing across 6 modules (Login, Dashboard, Leave, Employee Management, Admin, and Personal Info) to identify defects and ensure software quality.
+- Developed and executed 65 automated test cases using Selenium WebDriver and pytest, following the Page Object Model (POM) design pattern to verify UI and functional behavior.
+- Documented test scenarios, test cases, and generated HTML test reports using pytest-html for test result tracking and defect documentation.
