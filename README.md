@@ -1,8 +1,10 @@
 # OrangeHRM Testing Project
 
-**Tools:** Python, Selenium WebDriver, pytest, Microsoft Excel
+Developed manual and automated tests for the OrangeHRM web application to verify core HR system functionality across multiple modules.
 
-- Wrote **manual test cases** in Excel covering 6 modules: Authentication, Employee Management, Leave Management, User Management, Personal Profile, and Search & Filter
-- Built an **automated test suite** (65 test cases) using Selenium WebDriver and pytest following the Page Object Model (POM) pattern
-- Covered functional scenarios including login validation, form submission, navigation, and data filtering
-- Generated HTML test reports using pytest-html
+**Tools:** Python · Selenium WebDriver · pytest · Page Object Model (POM) · Microsoft Excel
+
+- Designed **manual test cases** in Excel covering 6 modules: Login, Dashboard, Leave, Employee Management (PIM), Admin, and Personal Info
+- Built an **automated test suite of 65 test cases** using Selenium WebDriver and pytest, structured with the Page Object Model (POM) design pattern
+- Automated test scenarios for login validation, form input, dropdown selection, navigation, and search/filter functions
+- Generated HTML test reports using pytest-html for test result documentation
