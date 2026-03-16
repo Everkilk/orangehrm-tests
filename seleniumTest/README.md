@@ -1,12 +1,12 @@
-# OrangeHRM Selenium with Pytest
+# OrangeHRM Selenium với Pytest
 
-This project is a Python Selenium tests for OrangeHRM using:
+ Thực hiện test auto OrangeHRM bằng Python Selenium, sử dụng:
 - Selenium WebDriver
 - pytest
-- pytest-html reporting
-- Page Object Model (POM)
+- báo cáo pytest-html
+- Mô hình Page Object Model (POM)
 
-## Covered Modules (6 test files)
+## Các module đã cover (6 file test)
 - tests/test_login_page.py
 - tests/test_dashboard_page.py
 - tests/test_leave_page.py
@@ -14,9 +14,9 @@ This project is a Python Selenium tests for OrangeHRM using:
 - tests/test_admin_page.py
 - tests/test_my_info_page.py
 
-## Project Structure
-- config: environment and credential config
-- core: driver creation and base page wrapper
-- pages: page object classes for each module
-- data: test datasets for data-driven testing
-- tests: executable pytest test cases
+## Cấu trúc dự án
+- config: cấu hình môi trường và thông tin đăng nhập
+- core: khởi tạo driver và lớp base page wrapper
+- pages: các class Page Object cho từng module
+- data: dữ liệu test phục vụ data-driven testing
+- tests: các test case pytest có thể chạy trực tiếp
